@@ -101,6 +101,14 @@ module.exports = {
     'react/require-default-props': 0,
     'react-hooks/exhaustive-deps': 'off',
     'space-before-function-paren': 0,
+    '@typescript-eslint/naming-convention': [
+      'warn',
+      {
+        selector: 'parameter',
+        format: ['camelCase'],
+        leadingUnderscore: 'allow',
+      },
+    ],
     '@typescript-eslint/no-unused-vars': ['warn'],
   },
   plugins: ['html', 'prettier', '@typescript-eslint'],

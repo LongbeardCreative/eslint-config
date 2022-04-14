@@ -91,6 +91,8 @@ And your `.eslintrc.js` file:
 
 ```js
 module.exports = {
-  extends: ['@longbeard', 'next'],
+  extends: ['next', '@longbeard'],
 };
 ```
+
+Add `@longbeard` after other configs to override certain rules.

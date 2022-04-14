@@ -49,7 +49,7 @@ Or refer to Longbeard's `dotfiles` repo for the most up-to-date config.
 
 If your VSCode doesn't lint automatically, you might need to adjust its configuration.
 
-1. Install the [https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint](ESLint Plugin)
+1. Install the [ESLint Plugin](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
 2. Adjust VSCode Settings (JSON):
 
@@ -79,7 +79,7 @@ If your VSCode doesn't lint automatically, you might need to adjust its configur
 
 ### Using with Next.js
 
-You may want to use Next.js' [https://nextjs.org/docs/basic-features/eslint](recommended ESLint config). To do so, simply install and add the package on project's `.eslintrc` file.
+You may want to use Next.js' [recommended ESLint config](https://nextjs.org/docs/basic-features/eslint). To do so, simply install and add the package on project's `.eslintrc` file.
 
 Installing via npm:
 

@@ -1,8 +1,10 @@
-# Longbeard's ESLint & Prettier configuration
+# ESLint & Prettier configuration
 
 This ESLint configuration is designed to work with Prettier.
 
-## Installation
+## Getting Started
+
+### Installation
 
 To get started, install this package with all its peer dependencies
 
@@ -28,7 +30,7 @@ module.exports = {
 };
 ```
 
-## Configuring Prettier
+### Configuring Prettier
 
 Create `.prettierrc` file with the following config:
 
@@ -43,7 +45,7 @@ Create `.prettierrc` file with the following config:
 
 Or refer to Longbeard's `dotfiles` repo for the most up-to-date config.
 
-## Configuring VSCode
+### Configuring VSCode
 
 If your VSCode doesn't lint automatically, you might need to adjust its configuration.
 
@@ -51,7 +53,7 @@ If your VSCode doesn't lint automatically, you might need to adjust its configur
 
 2. Adjust VSCode Settings (JSON):
 
-   ```json
+   ```js
    {
      // Enable auto-save
      "editor.formatOnSave": true,
@@ -72,3 +74,23 @@ If your VSCode doesn't lint automatically, you might need to adjust its configur
    ```
 
 3. Finally, you might need to restart VSCode.
+
+## Usage
+
+### Using with Next.js
+
+You may want to use Next.js' [https://nextjs.org/docs/basic-features/eslint](recommended ESLint config). To do so, simply install and add the package on project's `.eslintrc` file.
+
+Installing via npm:
+
+```shell
+npm install -D eslint-config-next
+```
+
+And your `.eslintrc.js` file:
+
+```js
+module.exports = {
+  extends: ['@longbeard', 'next'],
+};
+```
